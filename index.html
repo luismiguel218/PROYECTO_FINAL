@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="slider.css">
+    <script src="proyecto.js"></script>     
+</head>
+<style>
+    body{
+        background-color: darkcyan;
+    }
+</style>
+
+<body>
+         <center> 
+
+        <div class="container-LUIS">
+            <h1><i class="fas fa-store"></i>  TIENDA DOÑA JUDITH CASTAÑEDA<i class="fas fa-store"></i></h1>
+            <H5><i class="fas fa-clock"></i> ATENCION LAS 24 HORAS</H5>
+                  <h5> <i class="fas fa-motorcycle"></i> Delivery Gratis</h5>
+                
+        </div>      
+      <div class="container-slider">
+        <div class="slider" id="slider">
+            <div class="slider__section">
+                <img src="imagenes/descuento1.png" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta2.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta3.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta6.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta7.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta8.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta9.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta13.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta14.jpg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta15.jpeg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta16.jpeg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta17.jpeg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta18.jpeg" alt="" class="slider__img">
+            </div>
+            <div class="slider__section">
+                <img src="imagenes/oferta19.jpg" alt="" class="slider__img">
+            </div>
+
+
+        </div>
+        <div class="slider_btn slider_btn--rigth" id="btn-rigth"><i class="fas fa-chevron-right" ></i></div>
+        <div class="slider_btn slider_btn--left" id="btn-left"><i class="fas fa-chevron-left" ></i></div>
+    </div>
+
+    <div class="container_pepe">
+        <table>
+        <br><tr style="background-color: darkgoldenrod;font-size: 20px;">
+             <th><i class="fas fa-shopping-basket"></i> PRODUCTOS DISPONIBLES <i class="fas fa-shopping-basket"></i></th> 
+            <br></tr>
+         </table><br><br>
+    </div>
+          </center>
+
+    <script src="slider.js"></script>  
+
+
+    <div class="container">
+        <div class="row">
+            <!-- Elementos generados a partir del JSON -->
+            <main id="items" class="col-sm-8 row"></main>
+            <!-- Carrito -->
+            <aside  class="col-sm-4"> 
+                <div class="container_carrito">
+                <h2 ><i class="fas fa-shopping-cart"></i> CARRITO </h2>
+                </div>
+                <!-- Elementos del carrito -->
+                <ul id="carrito" class="list-group"></ul>
+                <hr>
+                <!-- Precio total -->
+                <p class="text-right">  Total: <span id="total"></span>  S/.</p>
+                <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+            </aside>
+         </div>
+
+    </div> 
+    
+     <center>
+     <br><div class="container-LUIS" style="--bs-bg-opacity: .5;height: 130px;">
+     <br><br> <h2> <i class="fas fa-thumbs-up"></i>  GRACIAS POR SU PREFERENCIA VUELVA PRONTO..... <i class="fas fa-smile-beam"></i> </h2>
+     <h2><i class="fas fa-phone"></i> #972232123  </h2>
+   
+     </div>        
+      </center>
+</body>
+</html>
